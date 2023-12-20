@@ -69,7 +69,7 @@ output_filename_v2 = 'extracted_onions_v2.txt'
 output_filename_v3 = 'extracted_onions_v3.txt'
 extract_linked_onions(input_filename, output_filename_v2, output_filename_v3, length_threshold=30)
 
-database_path = "all.txt"
+database_path = "database.txt" #database is created using srcaping of browsers 
 #tosearch_path = "extracted_onions_v3.txt"
 public_urls, hidden_urls = check_urls(database_path, output_filename_v3)
 
